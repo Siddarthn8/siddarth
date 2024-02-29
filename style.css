@@ -378,6 +378,7 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 .contact-left p{
+    color: #4b618a;
     margin-top: 30px;
 }
 .contact-left p i{
