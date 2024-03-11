@@ -243,6 +243,8 @@ nav ul li a:hover::after{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
+    /* margin-left: 5px; */
+    /* margin-right: 5px; */
 }
 .tab-contents ul li span{
     color: #4b618a;
@@ -253,6 +255,7 @@ nav ul li a:hover::after{
 }
 .tab-contents.active-tab{
     display: block;
+
 }
 /* ---------------resume------------- */
 .resume-section h1{
