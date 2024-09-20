@@ -128,7 +128,8 @@ nav ul li a:hover::after{
   .header-text h1 {
     /* Adjust the total duration to include both the animation and the delay */
     /* For instance, 8s here means 4s for the swipe in and 4s for the delay */
-    animation: swipeInLeft 8s ease-in-out infinite;
+
+    /* animation: swipeInLeft 8s ease-in-out infinite; */
     font-family: 'Literata', serif;
     display: inline-block;
     white-space: nowrap;
@@ -147,7 +148,7 @@ nav ul li a:hover::after{
   }
   
   .header-text h2 {
-    animation-name: slideIn;
+    /* animation-name: slideIn; */
     animation-duration: 2s;
     animation-delay: 1s;
     animation-fill-mode: both; /* Ensures the element remains in the final state of the animation */
